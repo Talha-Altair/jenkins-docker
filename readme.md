@@ -15,11 +15,11 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 copy the password
 
-use ur own generated password
-
 open localhost:8080
 
 do first time setup using the the above generated password
+
+Let it auto select plugins
 
 ## create new job
 select freestyle project
