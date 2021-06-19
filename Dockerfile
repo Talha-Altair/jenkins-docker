@@ -5,5 +5,5 @@ RUN apt-get install -y python3-pip python-dev build-essential
 ADD . /flask-app
 WORKDIR /flask-app
 RUN pip install -r requirements.txt
-# ENTRYPOINT ["python"]
-CMD ["python3":"app.py"]
+ENTRYPOINT ["python3"]
+CMD ["app.py"]
