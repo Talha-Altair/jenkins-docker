@@ -1,6 +1,5 @@
 FROM ubuntu:latest
 MAINTAINER Angello Maggio "cooltalha27@gmail.com"
-RUN apt-get install software-properties-common
 RUN apt-add-repository universe
 RUN apt-get update
 RUN apt-get update -y
