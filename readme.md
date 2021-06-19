@@ -21,16 +21,16 @@ do first time setup using the the above generated password
 
 Let it auto select plugins
 
-## create new job
+## Create new job
 select freestyle project
 
-## add git url:
+## Add git url:
 ( have it public and add credentials)
 
 ## Add poll scm:
    create cron schedule using www.cronmaker.com // (* * * * *)
 
-## add build step:
+## Add build step:
    ### execute shell: 
       docker build -t my-flask-image:latest .
 ```bash
