@@ -6,4 +6,4 @@ ADD . /flask-app
 WORKDIR /flask-app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
-CMD ["flask-docker.py"]
+CMD ["python3 app.py"]
